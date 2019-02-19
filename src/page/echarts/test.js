@@ -25,15 +25,8 @@ export default class Test extends Component {
           roam: true,
           edgeSymbol: ['circle', 'arrow'],
           edgeSymbolSize: [4, 10],
-          edgeLabel: {
-            normal: {
-              textStyle: {
-                fontSize: 20
-              }
-            }
-          },
           force: {
-            repulsion: 2500,
+            repulsion: 2000,
             edgeLength: [10, 50]
           },
           draggable: true,
@@ -52,6 +45,7 @@ export default class Test extends Component {
           edgeLabel: {
             normal: {
               show: true,
+              fontSize: 20,
               formatter: function (x) {
                 return x.data.name;
               }

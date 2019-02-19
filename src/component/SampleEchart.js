@@ -26,7 +26,8 @@ class SampleEChart extends React.Component {
     // 基于准备好的dom，初始化echarts实例
     this.chart = echarts.init(mountDom);
     // 减去侧边栏宽度
-    this.chart.resize({ width: this.chart.getWidth() - 200, height: 'auto' })
+    // this.chart.resize({ width: this.chart.getWidth() - 200, height: this.chart.getHeight() })
+    this.chart.resize({ width: window.innerWidth - 200 + 'px', height: window.innerHeight + 'px' })
     this.refreshChart();
     // this.screenChange();
   }
@@ -51,7 +52,7 @@ class SampleEChart extends React.Component {
 
   render() {
     const style = {
-      height: '600px',
+      height: '700px',
       width: 'auto'
     };
     return (
