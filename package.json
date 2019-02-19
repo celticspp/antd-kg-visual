@@ -13,5 +13,12 @@
   "license": "ISC",
   "devDependencies": {
     "umi-plugin-react": "^1.4.2"
+  },
+  "dependencies": {
+    "@antv/data-set": "^0.10.2",
+    "@antv/g2": "^3.4.10",
+    "antd": "^3.13.2",
+    "bizcharts": "^3.4.3",
+    "echarts": "^4.1.0"
   }
 }
