@@ -17,8 +17,10 @@
   "dependencies": {
     "@antv/data-set": "^0.10.2",
     "@antv/g2": "^3.4.10",
+    "@antv/g6-editor": "^1.2.0",
     "antd": "^3.13.2",
     "bizcharts": "^3.4.3",
-    "echarts": "^4.1.0"
+    "echarts": "^4.1.0",
+    "jquery": "^3.3.1"
   }
 }

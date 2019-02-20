@@ -358,6 +358,7 @@ export default class Test extends Component {
     };
     return (
       <div>
+        参考：<a href='https://www.cnblogs.com/emrys5/p/echart-relationship-map.html'>https://www.cnblogs.com/emrys5/p/echart-relationship-map.html </a>
         <SampleEChart option={option} />
       </ div>
     )

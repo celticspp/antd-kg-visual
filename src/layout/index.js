@@ -26,22 +26,20 @@ export default class BasicLayout extends Component {
               title={<span><Icon type="dashboard" /><span>Echarts</span></span>}
 
             >
-              <Menu.Item key="2"><Link to="/echarts/path">关联风险</Link></Menu.Item>
-              <Menu.Item key="3"><Link to="/echarts/network">N度关系</Link></Menu.Item>
-              <Menu.Item key="4"><Link to="/echarts/test">graph test</Link></Menu.Item>
+              <Menu.Item key="2"><Link to="/echarts/network">关系图谱</Link></Menu.Item>
+              <Menu.Item key="3"><Link to="/echarts/test">graph test</Link></Menu.Item>
             </SubMenu>
             <SubMenu
               key="sub2"
               title={<span><Icon type="dashboard" /><span>G6</span></span>}
             >
-              <Menu.Item key="5"><Link to="/g6/network">关系图谱</Link></Menu.Item>
-              <Menu.Item key="6"><Link to="/g6/editor">G6-Editor</Link></Menu.Item>
+              <Menu.Item key="4"><Link to="/g6/editor">G6-Editor</Link></Menu.Item>
             </SubMenu>
             <SubMenu
               key="sub3"
               title={<span><Icon type="dashboard" /><span>BizCharts</span></span>}
             >
-              <Menu.Item key="7"><Link to="/bizcharts/test">graph test</Link></Menu.Item>
+              <Menu.Item key="5"><Link to="/bizcharts/test">graph test</Link></Menu.Item>
             </SubMenu>
           </Menu>
         </Sider>

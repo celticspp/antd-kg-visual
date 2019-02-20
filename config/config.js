@@ -21,7 +21,7 @@ export default {
     routes: [
       {
         path: '/',
-        component: './HelloWorld'
+        component: 'echarts/network'
       },
       {
         path: '/helloworld',
@@ -43,14 +43,12 @@ export default {
         path: '/echarts',
         routes: [
           { path: '/echarts/network', component: 'echarts/network' },
-          { path: '/echarts/path', component: 'echarts/path' },
           { path: '/echarts/test', component: 'echarts/test' },
         ]
       },
       {
         path: '/g6',
         routes: [
-          { path: '/g6/network', component: 'g6/network' },
           { path: '/g6/editor', component: 'g6/editor' },
         ]
       },
