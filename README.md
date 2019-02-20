@@ -8,6 +8,9 @@ Below are some useful links:
 4. BizCharts: <https://bizcharts.net/index>
 5. Echarts: <https://www.echartsjs.com/index.html>
 
+# Preview
+![image](https://github.com/celticspp/antd-kg-visual/blob/master/src/images/preview.jpg)
+
 ## Environment
 
 ```
